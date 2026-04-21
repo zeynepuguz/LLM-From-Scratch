@@ -1,2 +1,6 @@
 .env
-_pycache__/
+.venv/
+__pycache__/
+hf_tokenizer.json
+*.env
+*.ipynb_checkpoints/
