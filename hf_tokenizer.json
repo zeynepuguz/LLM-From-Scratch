@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<unk>": 0,
+      "(": 1,
+      ")": 2,
+      ",": 3,
+      "-": 4,
+      ".": 5,
+      "1": 6,
+      "2": 7,
+      "3": 8,
+      "9": 9,
+      ":": 10,
+      ";": 11,
+      "A": 12,
+      "C": 13,
+      "E": 14,
+      "F": 15,
+      "G": 16,
+      "H": 17,
+      "I": 18,
+      "K": 19,
+      "M": 20,
+      "N": 21,
+      "O": 22,
+      "P": 23,
+      "R": 24,
+      "S": 25,
+      "T": 26,
+      "U": 27,
+      "W": 28,
+      "a": 29,
+      "b": 30,
+      "c": 31,
+      "d": 32,
+      "e": 33,
+      "f": 34,
+      "g": 35,
+      "h": 36,
+      "i": 37,
+      "k": 38,
+      "l": 39,
+      "m": 40,
+      "n": 41,
+      "o": 42,
+      "p": 43,
+      "q": 44,
+      "r": 45,
+      "s": 46,
+      "t": 47,
+      "u": 48,
+      "v": 49,
+      "w": 50,
+      "x": 51,
+      "y": 52,
+      "z": 53,
+      "ü": 54,
+      "İ": 55,
+      "th": 56,
+      "in": 57,
+      "the": 58,
+      "ta": 59,
+      "as": 60,
+      "re": 61,
+      "on": 62,
+      "ti": 63
+    },
+    "merges": [
+      [
+        "t",
+        "h"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "th",
+        "e"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "t",
+        "i"
+      ]
+    ]
+  }
+}
